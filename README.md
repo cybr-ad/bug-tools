@@ -188,3 +188,4 @@ Contributions, bug reports, and suggestions are welcome!
 ## 📄 License
 
 This repository is distributed under the MIT License. Individual tools and wordlists retain their respective licenses and terms of use.
+Happy hunting !!!
