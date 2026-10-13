@@ -1,4 +1,4 @@
-# 🐛 Bug Hunting Toolkit
+# 🐛 Bug Hunting Tools 
 
 A curated collection of tools for bug bounty hunting, penetration testing, and web application security assessments.  
 This repository provides an automated installation script and a categorized reference for all included tools.
