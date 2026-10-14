@@ -1,0 +1,225 @@
+# ============================================================
+#  API Keys — Bug Bounty Toolkit
+# ============================================================
+#  Instructions:
+#    1. Fill in ONLY the keys you have. Leave blank to skip.
+#    2. Do NOT add quotes. Do NOT add spaces around "=".
+#    3. Run:  sudo ./install_tools.sh
+#    4. The installer auto-writes each tool's native config.
+#
+#  Get free keys:
+#    Shodan          https://account.shodan.io/
+#    Censys          https://search.censys.io/account/api
+#    VirusTotal      https://www.virustotal.com/gui/my-apikey
+#    SecurityTrails  https://securitytrails.com/corp/api
+#    Chaos (PD)      https://cloud.projectdiscovery.io/
+#    BinaryEdge      https://app.binaryedge.io/
+#    GitHub Token    https://github.com/settings/tokens
+#    Hunter.io       https://hunter.io/api-keys
+#    FullHunt        https://fullhunt.io/
+#    IntelX          https://intelx.io/account?tab=developer
+#    WhoisXML        https://whoisxmlapi.com/
+#    Fofa            https://fofa.info/static_pages/api_help
+#    HIBP            https://haveibeenpwned.com/API/Key
+#    Tomba           https://tomba.io/
+#    CertSpotter     https://sslmate.com/certspotter/api/
+#    DNSDB           https://api.dnsdb.info/
+#    BuiltWith       https://api.builtwith.com/
+#    ZoomEye         https://www.zoomeye.org/profile
+#    Quake           https://quake.360.cn/
+#    ThreatBook      https://x.threatbook.cn/en
+#    C99             https://api.c99.nl/
+#    BeVigil         https://bevigil.com/osint-api
+#    PassiveTotal    https://community.riskiq.com/
+#    Facebook Dev    https://developers.facebook.com/
+# ============================================================
+
+# ------------------------------------------------------------
+# SHODAN
+# Used by: subfinder, amass, theHarvester, shodan CLI, metabigor
+# ------------------------------------------------------------
+SHODAN_API_KEY=
+
+# ------------------------------------------------------------
+# CENSYS  (two-part key: ID + Secret, joined with a colon)
+# Used by: subfinder, amass, theHarvester
+# ------------------------------------------------------------
+CENSYS_API_ID=
+CENSYS_API_SECRET=
+
+# ------------------------------------------------------------
+# VIRUSTOTAL
+# Used by: subfinder, amass, theHarvester
+# ------------------------------------------------------------
+VIRUSTOTAL_API_KEY=
+
+# ------------------------------------------------------------
+# SECURITYTRAILS
+# Used by: subfinder, amass, theHarvester
+# ------------------------------------------------------------
+SECURITYTRAILS_API_KEY=
+
+# ------------------------------------------------------------
+# CHAOS  (ProjectDiscovery Cloud)
+# Used by: subfinder, chaos, nuclei (dashboard upload)
+# ------------------------------------------------------------
+CHAOS_API_KEY=
+
+# ------------------------------------------------------------
+# PROJECTDISCOVERY CLOUD PLATFORM (PDCP)
+# Used by: nuclei, katana, httpx (dashboard upload)
+# Often the same value as CHAOS_API_KEY — leave blank to reuse.
+# ------------------------------------------------------------
+PDCP_API_KEY=
+
+# ------------------------------------------------------------
+# BINARYEDGE
+# Used by: subfinder, amass
+# ------------------------------------------------------------
+BINARYEDGE_API_KEY=
+
+# ------------------------------------------------------------
+# GITHUB PERSONAL ACCESS TOKEN
+# Used by: subfinder, github-search, theHarvester, github-subdomains
+# Scope needed: public_repo (classic token)
+# ------------------------------------------------------------
+GITHUB_TOKEN=
+
+# ------------------------------------------------------------
+# HUNTER.IO
+# Used by: theHarvester, email harvesting
+# ------------------------------------------------------------
+HUNTER_API_KEY=
+
+# ------------------------------------------------------------
+# FULLHUNT
+# Used by: subfinder, amass
+# ------------------------------------------------------------
+FULLHUNT_API_KEY=
+
+# ------------------------------------------------------------
+# INTELX
+# Used by: subfinder, amass
+# ------------------------------------------------------------
+INTELX_API_KEY=
+
+# ------------------------------------------------------------
+# WHOISXML API
+# Used by: subfinder, amass
+# ------------------------------------------------------------
+WHOISXML_API_KEY=
+
+# ------------------------------------------------------------
+# FOFA  (two-part: email + key, joined with a colon)
+# Used by: subfinder, amass
+# ------------------------------------------------------------
+FOFA_EMAIL=
+FOFA_API_KEY=
+
+# ------------------------------------------------------------
+# HAVE I BEEN PWNED (HIBP)
+# Used by: theHarvester
+# ------------------------------------------------------------
+HIBP_API_KEY=
+
+# ------------------------------------------------------------
+# TOMBA  (two-part: key + secret)
+# Used by: theHarvester
+# ------------------------------------------------------------
+TOMBA_API_KEY=
+TOMBA_API_SECRET=
+
+# ------------------------------------------------------------
+# CERTSPOTTER  (SSLMate)
+# Used by: subfinder, amass
+# ------------------------------------------------------------
+CERTSPOTTER_API_KEY=
+
+# ------------------------------------------------------------
+# DNSDB  (Farsight)
+# Used by: subfinder, amass
+# ------------------------------------------------------------
+DNSDB_API_KEY=
+
+# ------------------------------------------------------------
+# BUILTWITH
+# Used by: subfinder
+# ------------------------------------------------------------
+BUILTWITH_API_KEY=
+
+# ------------------------------------------------------------
+# ZOOMEYE
+# Used by: subfinder, amass
+# ------------------------------------------------------------
+ZOOMEYE_API_KEY=
+
+# ------------------------------------------------------------
+# QUAKE  (360)
+# Used by: subfinder, amass
+# ------------------------------------------------------------
+QUAKE_API_KEY=
+
+# ------------------------------------------------------------
+# THREATBOOK
+# Used by: subfinder, amass
+# ------------------------------------------------------------
+THREATBOOK_API_KEY=
+
+# ------------------------------------------------------------
+# C99
+# Used by: subfinder
+# ------------------------------------------------------------
+C99_API_KEY=
+
+# ------------------------------------------------------------
+# BEVIGIL
+# Used by: subfinder
+# ------------------------------------------------------------
+BEVIGIL_API_KEY=
+
+# ------------------------------------------------------------
+# PASSIVETOTAL  (RiskIQ / Microsoft)
+# Two-part: username + API key
+# ------------------------------------------------------------
+PASSIVETOTAL_USERNAME=
+PASSIVETOTAL_API_KEY=
+
+# ------------------------------------------------------------
+# FACEBOOK DEVELOPER TOKEN
+# Used by: subfinder (Facebook CT)
+# ------------------------------------------------------------
+FACEBOOK_API_TOKEN=
+
+# ------------------------------------------------------------
+# BUFFEROVER
+# Used by: subfinder
+# ------------------------------------------------------------
+BUFFEROVER_API_KEY=
+
+# ------------------------------------------------------------
+# CHINAZ
+# Used by: subfinder
+# ------------------------------------------------------------
+CHINAZ_API_KEY=
+
+# ------------------------------------------------------------
+# ROBTEX
+# Used by: subfinder
+# ------------------------------------------------------------
+ROBTEX_API_KEY=
+
+# ------------------------------------------------------------
+# DNSREPO
+# Used by: subfinder
+# ------------------------------------------------------------
+DNSREPO_API_KEY=
+
+# ------------------------------------------------------------
+# ROUTEVIEWS
+# Used by: theHarvester (optional — guest access without key)
+# ------------------------------------------------------------
+ROUTEVIEWS_API_KEY=
+
+# ============================================================
+#  END OF FILE
+# ============================================================
